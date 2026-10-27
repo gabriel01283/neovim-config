@@ -1,0 +1,19 @@
+# Dados locais e sensíveis
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.sqlite
+*.db
+credentials.json
+secrets.json
+
+# Arquivos temporários
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Dados locais de plugins
+db_ui/
